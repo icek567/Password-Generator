@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="script.js"></script>
-    <link rel="stylesheet" href="script.js">
     <title>Password Generator</title>
+    <style type="text/css">
+     body{
+         background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif")    
+        
+        }
+    </style>
 
 
 
@@ -26,9 +31,10 @@
                     <br />
                     <input type="text" id="display">
                     <br />
-                    <button onclick="">Generate</button>
-                    <div id="lenght"></div>
-                    
+                    <input type="range" min="0" max="50" name="slider" id="slider">
+                    <br />
+                    <button onclick="generate()">Generate</button>
+                    <div id="length"></div>
                 </div>
 
                 <div class="previous-passwords">
