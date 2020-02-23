@@ -1,4 +1,4 @@
-
+//generate a random password
 function generate(){
    
     let complexity = document.getElementById("slider").value;
@@ -17,4 +17,27 @@ function generate(){
 
    document.getElementById("display").value = password;
 
+
+   //adding password to previously generated
+   document.getElementById("lastPasswords").innerHTML += password + "<br />";
+
+}
+//slider code
+document.getElementById("length").innerHTML = "Length: 25";
+
+document.getElementById("slider").oninput =function(){
+    if (document.getElementById("slider").value > 0 ){
+        document.getElementById("length").innerHTML = "Length " + document.getElementById("slider").value;
+    }
+    else{
+        document.getElementById("length").innerHTML = "Length: 1";
+    }
+}
+
+//copy to clipboard
+function copyClipboard(){
+    document.getElementById("display").select();
+    document.execCommand("Copy");
+
+    alert("Password has been copied")
 }
