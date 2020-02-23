@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Password Generator</title>
-    <style type="text/css">
-     body{
-         background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif")    
-        
-        }
-    </style>
-
-
-
 </head>
+
 <body>
     <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="#"> Password Generator</a>
     </nav>
-    
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-lg-8 col-sm-12 mx-auto">
                 <div class="content">
                     <h4>Password Generator </h4>
                     <br />
@@ -34,21 +27,20 @@
                     <input type="range" min="0" max="50" name="slider" id="slider">
                     <br />
                     <button onclick="generate()">Generate</button>
+                    <button onclick="copyClipboard()">Copy to Clipboard</button>
                     <div id="length"></div>
                 </div>
 
-                <div class="previous-passwords">
+                <div class="used-passwords">
                     <b>Old Generated Passwords</b>
                     <div id="lastPasswords"></div>
                 </div>
-              
+
 
             </div>
         </div>
     </div>
-
-
-
-
+    <script src="script.js"></script>
+</body>
 
 </html>
