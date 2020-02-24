@@ -9,9 +9,6 @@
 #display{
     width: 100%;
 }
-.used-passwords{
-    color: white;
-}
 
 #slider{
     width: 50%;
@@ -28,4 +25,6 @@ body{
 
 .used-passwords{
     margin-bottom: 20px;
+    color: white;
+
 }
