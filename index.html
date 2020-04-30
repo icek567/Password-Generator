@@ -30,14 +30,15 @@
         <div class="row">
             <div class="col-lg-8 col-sm-12 mx-auto">
                 <div class="content">
-                    <h4>Password Generator </h4>
+                    <h4 id="font">Click "Generate" to create your password.</h4>
                     <br />
                     <input type="text" id="display">
                     <br />
                     <input type="range" min="0" max="50" name="slider" id="slider">
+                    <h6>Move slider to adjust the length of the password</h6>
                     <br />
-                    <button onclick="generate()">Generate</button>
-                    <button onclick="copyClipboard()">Copy to Clipboard</button>
+                    <button class="btn btn-outline-light btn-sm" onclick="generate()">Generate</button>
+                    <button class="btn btn-outline-light btn-sm" onclick="copyClipboard()">Copy to Clipboard</button>
                     <div id="length"></div>
                 </div>
 
