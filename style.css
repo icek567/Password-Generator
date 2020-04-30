@@ -28,3 +28,15 @@ body{
     color: white;
 
 }
+
+#jumbotron{
+    font-family: 'Oswald', sans-serif;
+    background-image: radial-gradient(green,black);
+}
+
+#icon{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(24, 211, 64);
+    border-style: solid;
+    padding: 5px;
+}
