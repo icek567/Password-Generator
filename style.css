@@ -1,17 +1,22 @@
 .content{
     width: 100%;
-    background-color: rgb(14, 182, 22);
+    background-color: rgb(15, 107, 20);
     padding: 20px;
-    width: 100%;
+    width: 75%;
     color: white;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: block;
 }
 
 #display{
-    width: 100%;
+    width: 75%;
 }
 
 #slider{
     width: 50%;
+    margin-top: 5px;
 }
 
 #length{
@@ -26,17 +31,29 @@ body{
 .used-passwords{
     margin-bottom: 20px;
     color: white;
-
+    background-color: rgba(15, 107, 20, 0.74);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: block;
 }
+
 
 #jumbotron{
     font-family: 'Oswald', sans-serif;
     background-image: radial-gradient(green,black);
+    text-shadow: 1px 1px 2px  green, 0 0 25px black, 0 0 5px green;
 }
 
 #icon{
     color: white;
-    text-shadow: 2px 2px 5px rgb(24, 211, 64);
+    text-shadow: 1px 1px 2px green, 0 0 25px green, 0 0 5px green;  
     border-style: solid;
     padding: 5px;
+}
+
+#font{
+    font-family: 'Oswald', sans-serif;
 }

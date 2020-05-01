@@ -18,9 +18,8 @@ function generate(){
    document.getElementById("display").value = password;
 
 
-   //adding password to previously generated
+  //adding password to old generated
    document.getElementById("lastPasswords").innerHTML += password + "<br />";
-
 }
 //slider code
 document.getElementById("length").innerHTML = "Length: 25";
