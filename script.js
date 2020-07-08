@@ -5,7 +5,7 @@ function generate(){
 
 
   
-   let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890#$%abcdefghijklmnopqrstuvwxyz";
+   let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@#$%&*abcdefghijklmnopqrstuvwxyz";
     
    let password = "";
 
@@ -22,7 +22,7 @@ function generate(){
    document.getElementById("lastPasswords").innerHTML += password + "<br />";
 }
 //slider code
-document.getElementById("length").innerHTML = "Length: 25";
+document.getElementById("length").innerHTML = "Length: 15";
 
 document.getElementById("slider").oninput =function(){
     if (document.getElementById("slider").value > 0 ){

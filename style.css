@@ -16,7 +16,7 @@
 
 #slider{
     width: 50%;
-    margin-top: 5px;
+    margin-top: 5px;    
 }
 
 #length{
@@ -56,4 +56,44 @@ body{
 
 #font{
     font-family: 'Oswald', sans-serif;
+}
+
+.Slider{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #f1f7f2;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.Slider:hover{
+    opacity: 1;
+}
+
+.Slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    border: 0;
+    border-radius: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWmIusRk7zv4yXp4f4-jKa3T_D38nMlXO8uw&usqp=CAU");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.Slider::-moz-range-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    border: 0;
+    border-radius: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWmIusRk7zv4yXp4f4-jKa3T_D38nMlXO8uw&usqp=CAU");
+    background-size: cover;
+    cursor: pointer;
 }
