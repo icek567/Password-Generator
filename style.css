@@ -97,3 +97,9 @@ body{
     background-size: cover;
     cursor: pointer;
 }
+
+.logo{
+    float: right;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
